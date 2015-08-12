@@ -1,6 +1,7 @@
 ---
 layout: default
 format: post
+type: product-details
 ---
 <div class="row t30">
 	<div class="medium-8 columns{% if page.sidebar == NULL %} medium-offset-2 end{% endif %}{% if page.sidebar == "left" %} medium-push-4{% endif %}">
@@ -41,11 +42,21 @@ format: post
 			</p>
 			{% endif %}
 
-			<ul class="something">
+			<div class="slider-for">
 			{% for image in page.images %}
-			    <img src="/images/{{ image }}" />
+			    <div class="product-image">
+			    	<img src="/images/{{ image }}" />
+			    </div>
 			{% endfor %}
-			</ul>
+			</div>
+
+			<div class="slider-nav">
+			{% for image in page.images %}
+			    <div class="product-image">
+			    	<img src="/images/{{ image }}" />
+			    </div>
+			{% endfor %}
+			</div>
 
 			<div id="PayPalMiniCart">
 			  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -58,7 +69,7 @@ format: post
 			    <input type="hidden" name="amount" value="{{page.price}}" />
 			    <input type="hidden" name="currency_code" value="USD" />
 			    <input type="hidden" name="weight_g" value="185">
-			    <input class="button" type="submit" name="submit" value="BUY NOW" />
+			    <input class="button product-details-button" type="submit" name="submit" value="BUY NOW" />
 			  </form>
 			</div>
 

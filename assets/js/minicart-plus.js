@@ -20,7 +20,7 @@ $(document).ready(function() {
         shipping_fee_per_kg = 6.50,
         shipping_txt = "Shipping and Handling",
         shipping_subtxt = "International Registered Mail",
-        shipping_currency = "EUR",
+        shipping_currency = "USD",
         check_out_button_txt = "Check Out",
         cont_shopping_button_txt = "Continue Shopping",
         cart_total_txt = "",
@@ -177,12 +177,13 @@ $(document).ready(function() {
         }
         //console.log("New Shipping Weight:",shipping_weight_g);
         // calculate total shipping cost and add to cart
-        var shipping_cost = parseFloat(loc_cost) + shipping_fee_base + (shipping_weight_g / 1E3) * shipping_fee_per_kg;
-        if (shipping_weight_g > 0) {
-            shipping_cost = shipping_cost.toFixed(2);
-        } else {
-            shipping_cost = 0.00;
-        }
+        // var shipping_cost = parseFloat(loc_cost) + shipping_fee_base + (shipping_weight_g / 1E3) * shipping_fee_per_kg;
+        var shipping_cost = parseFloat(loc_cost);
+        // if (shipping_weight_g > 0) {
+        //     shipping_cost = shipping_cost.toFixed(2);
+        // } else {
+        //     shipping_cost = 0.00;
+        // }
         p = {
             "business": business_name,
             "item_name": shipping_txt,
