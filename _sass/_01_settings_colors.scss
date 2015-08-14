@@ -10,8 +10,6 @@
 
 */
 
-
-
 /* Basics
 ------------------------------------------------------------------- */
 
@@ -19,20 +17,19 @@ $text-color:       	#735861;
 $body-font-color: 	$text-color;
 $body-bg: 			#FFFFFF;
 
-
-
 /* Corporate Identity Colorpalette
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 ------------------------------------------------------------------- */
 
-$ci-1: #FF92B9;		// dark turquoise
-$ci-2: #FFC6EB;		// turquoise
-$ci-3: #EFC94C;		// yellow
-$ci-4: #E27A3F;		// orange
-$ci-5: #DF4949;		// red
-$ci-6: #CAEE9F;   // green
+$ci-1: #FF92B9;		// light-pink
+$ci-2: #FFC6EB;		// 
+$ci-3: #EFC94C;		// 
+$ci-4: #E27A3F;		// 
+$ci-5: #DF4949;		// 
+$ci-6: #FFC6EB;   // deep-pink
 
-
+$deep-pink: #ff4285;
+$light-pink: #FF92B9;
 
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
@@ -43,8 +40,6 @@ $alert-color: $ci-5;
 $success-color: $ci-6;
 $warning-color: $ci-4;
 $info-color: $ci-1;
-
-
 
 /* Grey Scale
 ------------------------------------------------------------------- */
@@ -65,8 +60,6 @@ $grey-13: #313131;
 $grey-14: #242424;
 $grey-15: #171717;
 $grey-16: #0B0B0B;
-
-
 
 /* Topbar-Navigation
 ------------------------------------------------------------------- */
