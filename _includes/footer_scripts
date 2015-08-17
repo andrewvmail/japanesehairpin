@@ -7,6 +7,21 @@
 <script src="/assets/js/product-details-slider.js"></script>
 {% endif %}
 
+{% if page.type == 'product-details' %}
+<script src="/assets/js/product-details-slider.js"></script>
+{% endif %}
+
+{% if page.dir == '/' %}
+<script>
+$('.slide').slick({
+	dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+});
+</script>
+{% endif %}
+
 
 {% if page.header.image_fullwidth %}
 <script>
