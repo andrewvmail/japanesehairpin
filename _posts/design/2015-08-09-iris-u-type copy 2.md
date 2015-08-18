@@ -8,12 +8,12 @@ header:
     caption: Image by Florian Klauer
     caption_url: "http://florianklauer.de/"
 image:
-    thumb:  /products/1-iris/411080075824-m-01-dl.jpg
+    thumb:  /products/01-iris/411080075824-m-01-dl.jpg
 images:
-  - /products/1-iris/411080075824-m-01-dl.jpg
-  - /products/1-iris/411080075824-m-02-dl.jpg
-  - /products/1-iris/411080075824-m-03-dl.jpg
-  - /products/1-iris/411080075824-m-04-dl.jpg
+  - /products/01-iris/411080075824-m-01-dl.jpg
+  - /products/01-iris/411080075824-m-02-dl.jpg
+  - /products/01-iris/411080075824-m-03-dl.jpg
+  - /products/01-iris/411080075824-m-04-dl.jpg
 categories:
     - design
 comments: false
